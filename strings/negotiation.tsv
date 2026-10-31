@@ -1,0 +1,151 @@
+# Demon negotiation (Battle_TalkInit / Battle_TalkingMain / Talk_Draw). JP TAB EN.
+# Talk_Draw is drawn by the plugin: lines wrap to the box (about 37 chars per line, 4 lines max),
+# and a sentence the game splits over StringArray[12] + [13] is looked up joined (see patterns_negotiation.tsv).
+#
+# --- Talk menu (Talk_Draw, mode 3)
+スカウト	Scout
+誘惑	Seduce
+物を渡す	Give
+威嚇	Threaten
+交渉を打ち切る	End talks
+渡す	Give
+渡さない	Don't give
+#
+# --- Why talking fails before it starts (Battle_TalkInit)
+話を聞く相手ではない	It won't hear you out.
+話の通じる相手ではない	There's no reasoning with this one.
+交渉できる状況でない	This is no time to negotiate.
+# (you already have this demon in your party)
+仲魔によろしく	Say hi to my double in your party!
+話を聞く気はない様だ	It has no intention of listening.
+話が噛み合わないようだ	You can't seem to get through to it.
+仲魔がいっぱいのようだ	Your party is full.
+#
+# --- Outcomes (Battle_TalkingMain)
+交渉は決裂した	Negotiations broke down.
+#
+少し戸惑っているが感触は良さそうだ	It seems a little confused, but receptive.
+まんざらでもない様だ	It doesn't seem opposed to the idea.
+少し嬉しそうだ	It looks somewhat pleased.
+悪い気分ではないらしい	It seems to be enjoying the flattery.
+満足してる様だ	It looks satisfied.
+微笑んだように見える	It seems to crack a faint smile.
+気迫に押されている様だ	It seems cowed by your resolve.
+態度が軟化してきた様だ	It seems to be softening up.
+ワシがこわくないのか？	Ain't you scared of me, kid?
+話の分かる奴だ。聞いておこう	You talk sense. I'll hear you out.
+貴様、なかなか面白い奴だな	Heh, you're a funny one.
+そうだろう、ワシは魅力的だろう	Damn right! Handsome devil, ain't I?
+よしよし頂いておこうか	Heh, I'll take that off your hands.
+貴様なかなか気前が良いな	Mighty generous of you, pal.
+貴様からは意思の強さを感じる	You've got some real spine, kid.
+ぬぅ、なかなかの眼力･･･やるな、きさま	Nngh, what a glare... Not bad, punk.
+我に話し掛けるとは中々の度胸	Bold of you to address me, mortal.
+フフフ･･･我の力なら当然だろう	Heh heh... It's only natural that you'd crave my power.
+我の魅力を分かっておるようだな	It seems you grasp my majesty.
+お主も中々の玉よの	You have quite the silver tongue.
+遠慮なく頂いておこう	Very well. I accept your tribute.
+ありがたいことだ。礼を言っておくぞ	Most pleasing. You have my gratitude.
+ほう･･･強く出るだけのことはあるようだな	Hoh... You have the strength to back up that bravado.
+この気迫･･･ただ者ではないなお主	Such spirit... You're no mere mortal.
+分かりました。話を聞きましょう	Very well. I will hear you out.
+誉められるのも悪くは無いですね	A little praise is never unwelcome.
+私の魅力をわかっているようですね	It seems you appreciate my grace.
+人間に誘惑されるなんて思いもしませんでした	I never imagined I would be charmed by a human.
+ありがとう	Why, thank you.
+助かりました。礼を言います	Most kind of you. You have my thanks.
+言うだけの事はあるようですね	It seems yours are no idle threats.
+おおお、なんて力なのでしょう･･･	My word... What tremendous power...
+あらあたしに興味があるの？嬉しいわ	Ooh, interested in me? How sweet!
+話が分かるじゃない～	Now you're speaking my language.
+少しなら、遊んであげてもいいわよ	Guess I can play with you for a bit.
+ふふふ。誘惑されるのも悪くないわね	Hehe. Being wooed feels kinda nice.
+うふふ。ありがとう	Hehe, thanks, sweetie.
+ありがとう。うれしいわ	Aw, thanks! You're so sweet.
+な、なんでも言う事聞くから許して･･･	I-I'll do anything, just spare me...
+お、落ち着いて話してよ～	H-hey, easy! Let's talk this out!
+なになに？オイラに興味あるの？嬉しいな？	Huh, what? You want me with you? Sweet!
+えへへへ。いや～照れるなぁ	Ehehe! Aw, you're making me blush!
+オイラモテモテだぁ～嬉しいな	Whoa, everybody loves me! Awesome!
+オイラ魅力的？ホント？	You think I'm cool? For real?!
+わ～い！ありがとう	Woohoo! Thanks!
+マジ！うれしいなぁ	For real?! Sweet!
+うわぁ！やめてよ･･･なんでも言う事聞くよぉ	Yikes! Stop, I'll do whatever you say!
+ご、ごめん！オイラ何か悪い事した？	S-sorry! Did I do something wrong?!
+あまり興味がない様だ	It doesn't seem very interested.
+いまいち理解を示していない様だ	It doesn't seem to get the point.
+気分を害したようだ	It seems offended.
+馬鹿にされたと思っているようだ	It thinks you're making fun of it.
+機嫌を損ねた様だ	Its mood seems to have soured.
+怒っている様に見える	It looks angry.
+怯えている様だ	It seems terrified.
+逃げ出そうとしている	It looks ready to bolt.
+そんな言葉に乗るものか	Like hell I'm buying that!
+貴様とは関わりあいたくない	I want nothing to do with you, bastard.
+寄るな！殺されたいのか貴様！？	Back off! Got a death wish, you piece of shit?!
+やめんか、気色悪い！	Knock it off, you're creeping me out!
+ケチな奴だ	Cheapskate!
+バカにする気か！	You mocking me?!
+そ、その程度で屈するワシではないわ！	Th-that ain't enough to break me!
+脅しで人間などになびくと思うな！	No human's gonna scare me into line!
+気安く声をかけるでない！	Do not address me so casually!
+失敬な！我を誰と心得る！	Insolent! Do you know who I am?!
+無礼者！呆れてものも言えぬ	Impudent whelp! Words fail me.
+気色悪い！寄るな愚か者！	Repulsive! Keep your distance, fool!
+無礼な･･･思わせぶりか！？	Insolent... Do you toy with me?!
+礼儀を知らないようだな！	Have you no sense of propriety?!
+脅しで我を靡かせようとは、愚か者が！	Threats will not bend me, you fool!
+そんな脅しで我が屈すると思うか！？	Think I would bow to such threats?!
+煽てて気を引こうとは、なんという卑しさでしょう	Resorting to flattery to win me over... How vulgar.
+その手の話をする人間は信用できませんね	I cannot trust a human who speaks so glibly.
+下賎な･･･一度自らを省みたらどうです？	How vulgar... Perhaps you should take a look at yourself.
+なんと愚かな･･･	How utterly foolish...
+なんと失礼な！	How terribly rude!
+無礼な！許せません！	Such insolence! Unforgivable!
+力で従わせようとはなんと愚かな	Foolish to think force will sway me.
+何たる無礼！許しまじ！	What grave insolence! Unforgivable!
+なに新手の勧誘？気持悪い	Is this your way of hitting on people? Cringe.
+あーあ、つまんなーい	Ugh, what a bore.
+あなた、タイプじゃないわ	Sorry, honey, you're not my type.
+バッカみたい。自分の顔鏡で見たら？	As if! Looked in a mirror lately?
+馬鹿にしてるの！？	Is that supposed to be a joke?!
+ケチな男はきらいよ	I can't stand a cheapskate.
+きゃー助けてー！	Eek! Help! Somebody!
+イヤー！殺されるー！	Nooo! Don't kill me!
+変な人とは話すなって言われてるんだ･･･	I was told not to talk to weirdos...
+ちょっとあざとくない？それ	Laying it on a bit thick, aren't ya?
+誘惑する気？その手には引っかからないよーだ	Trying to butter me up? I'm not falling for that!
+うわー見え見えのお世辞だね	Whoa, talk about obvious flattery!
+兄ちゃんのドケチ！	What a total cheapskate, mister!
+マジ持ってないの？カッコ悪ゥ～	You're seriously broke? Lame!
+ど、怒鳴ったって･･･き、聞かないよ！	Y-yelling won't make me listen!
+脅したって、な、何も出ないからね！	Y-you won't get squat outta me!
+少し呆れている様だ	It seems exasperated with you.
+げんなりしている様だ	It looks completely fed up.
+怒りに触れてしまった様だ	It seems you've provoked its wrath.
+嫌われてしまった様だ	It seems to have soured on you.
+それしか能が無いのか、貴様！	That the only trick you know, dumbass?!
+またそれか！馬鹿にしているのか貴様！	Again?! You messing with me, asshole?!
+見栄をはるな。見苦しいぞ	Quit showing off. It's pathetic.
+身の程知らずめ！死ね！	Know your place, you little shit! Die!
+貴様！ワシを馬鹿にしたのか！？	Why, you—! Making a fool outta me?!
+何度も何度も見くびられたものだ	Time and again, you underestimate me.
+何度も何度も･･･無礼にも程がある！何！？･･･後悔するなよ	Again and again... such insolence! What?! You will regret this!
+許さぬぞ！	I shall not forgive this!
+もうよい･･･	Enough already...
+己の部もわきまえぬ愚か者が！	Insolent fool, know your place!
+無礼にも程があるぞお主	Your insolence knows no bounds!
+これ以上話合っても無駄ですね	Further discussion is pointless.
+しつこいですね。それしか能が無いのですか？	How persistent. Is that truly all you know how to do?
+これ以上は必要ありません	I have no need for any more.
+自らを省みない愚か者･･･私が正してあげましょう	A fool who never looks within... I shall set you right.
+何たる無礼！許すまじ！	What insolence! I won't forgive this!
+しつこいわよ･･･	Ugh, you don't quit, do you...
+またぁ？ワンパターンね。	Again? You're a real one-trick pony.
+なに威張ってんの？バカみたい	Quit acting so tough. It's pathetic.
+何よ！こっちからお断りよ！	Excuse me?! I didn't want you anyway!
+またぁ？面白くないなぁ～	Again? Boooring!
+何度も何度も気持悪いなぁ･･･	Quit it, you're creeping me out...
+もういいよ･･･見栄張るのやめたら～	Enough already... Quit showing off!
+なんだ弱いくせに！死んじゃえ！	Big talk for a weakling! Drop dead!
+もう遊んでやんないからな！	I'm not playing with you anymore!

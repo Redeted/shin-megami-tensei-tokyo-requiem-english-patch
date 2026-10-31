@@ -1,0 +1,6 @@
+# Story events: chapter download prompts (NEXTCHAP is already a digit when drawn)
+第(\d)章をﾀﾞｳﾝﾛｰﾄﾞしますか？	Download Chapter {1}?
+第(\d)章 天界魔界をﾀﾞｳﾝﾛｰﾄﾞしますか？	Download Chapter {1}: Heaven and Hell?
+# Steam build: MegatenCanvas swaps ﾀﾞｳﾝﾛｰﾄﾞ / ダウンロード for ロード in StringArray at runtime, so the choice window shows these
+第(\d)章をロードしますか？	Load Chapter {1}?
+第(\d)章 天界魔界をロードしますか？	Load Chapter {1}: Heaven and Hell?

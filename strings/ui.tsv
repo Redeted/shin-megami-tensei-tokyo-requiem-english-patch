@@ -1,0 +1,126 @@
+# UI / menu strings: exact-match JP<TAB>EN, applied at StGraphics.DrawString.
+# Help-box lines must fit about 37 half-width chars (no wrapping on these).
+#
+# --- Hub (Camp_Initialize / Camp_DrawMainCommand)
+探索	Explore
+ショップ	Shop
+ＢＡＲ	Bar
+医務室	Infirmary
+邪教の館	Cathedral
+ダンジョンを探索します。	Explore the dungeon.
+武器、アイテムを売り買い出来ます。	Buy and sell weapons and items.
+ダンジョンの情報を聞けます。	Hear rumors about the dungeon.
+HP、MP、ｽﾃｰﾀｽ異常の回復が出来ます。	Restore HP and MP, and cure ailments.
+MAG交換を行えます。	Exchange MAG.
+悪魔合体、剣合体、悪魔召喚が行えます。	Fuse demons or swords; summon demons.
+#
+# --- Pause menu (Pause_MenuDraw)
+仲魔召喚、隊列変更などが出来ます。	Summon demons, change party order.
+魔法を使用します。	Cast a spell.
+アイテムを使用します。	Use an item.
+武器、防具を装備します。	Equip weapons and armor.
+プレイヤー、仲魔の状態を表示します。	View status for you and your demons.
+各種設定の変更が出来ます。	Change game settings.
+仲魔を召喚します。	Summon a demon.
+仲魔を戻します。	Return a demon to the COMP.
+パーティーの並び順を変更します。	Change the party order.
+仲魔を削除します	Dismiss a demon.
+呼び出すにはMAGを消費します。	Summoning consumes MAG.
+#
+# --- Battle command help (battle init, StringArray 0-8)
+攻撃をします	Attack the enemy.
+魔法を使用します	Cast a spell.
+防御をします	Guard against attacks.
+自動で攻撃をします	Attack automatically.
+悪魔と交渉します	Negotiate with a demon.
+アイテムを使用します	Use an item.
+仲魔を召喚します	Summon a demon.
+仲魔を戻します	Return a demon to the COMP.
+戦闘から逃げます	Flee from battle.
+#
+# --- List headers (party / magic / item lists)
+見たいキャラを選択	Select a character to view.
+誰が魔法を使いますか	Who will cast the spell?
+召喚する仲魔を選択	Select a demon to summon.
+別れる仲魔を選択	Select a demon to part ways with.
+誰に使いますか	Use it on whom?
+戻す仲魔を選択	Select a demon to return.
+並び順を変更します	Change the party order.
+使用する魔法を選択	Select a spell to cast.
+使用するアイテムを選択	Select an item to use.
+捨てるアイテムを選択	Select an item to discard.
+つれてく仲魔をえらんでよ～。	Pick a demon to bring along!
+2体目の仲魔は～?　ダレ？　ダレ？	And demon number two is...? Who? Who?
+#
+# --- Status screen stat labels (Soul Hackers official set)
+力	St
+知	In
+魔	Ma
+体	Vi
+速	Ag
+運	Lu
+#
+#
+# --- In-game OPTION screen. BGM values sit 30px apart (<=5 chars), the others 45px (<=7 chars).
+BGMの設定	BGM Volume
+大	High
+中	Mid
+小	Low
+メッセージの速度設定	Message Speed
+早い	Fast
+標準	Normal
+遅い	Slow
+オートバトルの設定	Auto Battle
+音量の変更を行います	Adjust the music volume.
+メッセージの速度を変更します	Change the message speed.
+オートバトルのモードを変更します	Change the Auto Battle mode.
+OPTION画面を終了します	Close the OPTION screen.
+通常攻撃のみ繰り返します。	Repeat normal attacks only.
+前回の行動の繰り返し	Repeat the previous actions.
+MP、アイテムが無くなると通常攻撃	Normal attack once out of MP/items.
+MP、アイテムが無くなると防御	Defend once out of MP/items.
+#
+# --- Confirmation prompts. Some keys keep the source's leading/trailing space.
+タイトルへ戻りますか	Return to the title screen?
+はい	Yes
+いいえ	No
+ はい	 Yes
+ いいえ	 No
+どこに召喚しますか	Summon to which slot?
+どうしますか？	What will you do?
+何を買いますか？	What would you like to buy?
+何を売りますか？	What would you like to sell?
+何個買いますか？ 	How many will you buy? 
+何個売りますか？ 	How many will you sell? 
+もう１度通信しますか？	Try connecting again?
+逃がしてよろしいですか？	Really let this demon go?
+捨ててよろしいですか？	Really discard this?
+このステータスでよろしいですか？	Keep these stats?
+#
+# --- Name registration screen (game side, before the G-MODE dialog). Default name "YOU NAME" is original English.
+名前登録	Enter Name
+#
+# --- DrawComment lines (wrapped at spaces by the plugin)
+最初に仲魔にしたい悪魔を選択してください	Choose the demon you want as your first ally.
+#
+# --- Shop (Shop_Initialize). Confirm reads: "{item}" + "ですね？ " / "¥ price" / "なりますがよろしいですか？"
+買う	Buy
+売る	Sell
+戻る	Back
+武器、防具	Gear
+アイテム	Items
+ＹＥＳ	YES
+ＮＯ	NO
+いらっしゃいませ	Welcome!
+ありがとうございました	Thank you!
+お金が足りません	You don't have enough money.
+ですね？ 	? 
+売るものを持っていない	You have nothing to sell.
+これ以上持てない	You can't carry any more.
+なりますがよろしいですか？	Is that all right?
+#
+YOU NAME	YOUR NAME
+PALYZE	PARALYZE
+#
+# --- First-demon selection (intro)
+悪魔選択	Select Demon

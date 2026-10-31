@@ -1,0 +1,82 @@
+# Story events: speaker labels and the shared system lines (download / save prompts in event004/005/016).
+# Speakers are looked up as @spk.{jp} first (EventTextPatch), so they never replace text on other screens.
+@spk.男	Man
+@spk.女	Woman
+@spk.声	Voice
+@spk.声：	Voice
+@spk.リリス	Lilith
+@spk.白い服の男	Man in White
+# 店員 only appears for the Bar counter (chapter 1, event003)
+@spk.店員	Bartender
+@spk.酔客	Drunk
+@spk.フリアイ	Furiae
+@spk.フリアイ１	Furiae A
+@spk.フリアイ２	Furiae B
+@spk.フリアイ３	Furiae C
+# System lines (tokens NAWCHAP / OKDL are filled in by the plugin)
+OKDL日後に追加シナリオがダウンロードできます。\n乞うご期待！！	More scenario data can be downloaded in OKDL days.\nStay tuned!
+現在は第NAWCHAP章のシナリオデータです	This is the scenario data for Chapter NAWCHAP.
+ダウンロードが終了しました	Download complete.
+# Choice windows (Event_Selection → DrawString after substitution)
+ここまでの内容をセーブしますか？	Save your progress?
+"   はい   "	"   Yes    "
+"   いいえ   "	"   No     "
+# Same choices with 2-space padding (the second save prompt)
+"  はい  "	"  Yes   "
+"  いいえ  "	"  No      "
+# Chapter 2 speakers (c1)
+@spk.？	???
+@spk.青年	Young Man
+@spk.ルシファ	Louis Cyphre
+@spk.サタン	Satan
+@spk.セイレーン1	Siren A
+@spk.セイレーン2	Siren B
+@spk.セイレーン3	Siren C
+ロードが終了しました	Load complete.
+# Chapter 3 speakers (c2)
+@spk.ミカエル	Michael
+@spk.吸血鬼:	Vampire
+# Chapters 4-7 speakers (c3-c6). Labels with a colon are separate keys; the token ones are identity entries
+# (EventTextPatch fills @YOUNAME/@HEROINE in afterwards) so they stop showing up in untranslated.txt.
+@spk.@YOUNAME	@YOUNAME
+@spk.@YOUNAME:	@YOUNAME
+@spk.@HEROINE:	@HEROINE
+@spk.リリス:	Lilith
+@spk.?	?
+@spk.バエル	Bael
+@spk.破壊神:	Destroyer
+@spk.シヴァ	Shiva
+@spk.ガブリエル	Gabriel
+# Choice menus (Event_Selection, DrawString). The box is a fixed 220 px and text starts at x=14, leaving 214 px:
+# "・" is 12 px and each English character 6 px, so up to 33 characters fit after the "・".
+【選択してください】	[Make a choice]
+・神の力でなんとかできるかも	・Maybe God can help you
+・きみが悪魔でもかまわない！	・Demon or not, who cares!
+・でもきみはサタンの僕だ……	・But you serve Satan...
+・彼女を救いたい	・I want to save her
+・彼女の本心が知りたい	・I want to know her heart
+・彼女が敵ではないかが不安だ	・I fear she's an enemy
+# Chapter 4 (14 / 16 full-width wide)
+・リリスへの贈り物にしようか	・A gift for Lilith?
+・不謹慎だ。死者を弔おう	・Show respect for the dead
+・他には何もない。立ち去るか	・Nothing else here. Leave
+・こんな所で寝ていたら体にさわる	・She'll get sick sleeping here
+・しばらく寝顔を見つめる	・Watch her sleep a while
+・何の本を読んでいたのだろう……	・What was she reading...?
+# Chapter 5 (14 / 14 / 10, the header sets the last one)
+・誰だ？　歌声の主を探す	・Who? Look for the singer
+・しばし、歌に聞き入る・・・	・Listen to the song...
+・悪魔の罠か？　歌を邪魔する	・A trap? Drown it out
+・じゃあ摘むのを手伝うよ	・I'll help you pick them
+・サタンが花を愛でるのか…？	・Satan likes flowers...?
+・あんな奴に花など必要ない！	・He doesn't need flowers!
+・力が欲しい	・I want strength
+・魔力が欲しい	・I want magic
+・速さが欲しい	・I want speed
+# Chapter 6 (16 / 12 / 15)
+・神のために戦います	・I will fight for God
+・でも人間が人間を裁く権利はない	・Humans can't judge humans
+・わかった。魔族と組もう	・I'll join the demons
+・自分は人間でいたい	・I want to stay human
+・わかった。自分で決断するよ。	・All right. I'll decide for myself
+・他にも可能性があるかも…。	・Maybe there's another way

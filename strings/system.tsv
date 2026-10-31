@@ -1,0 +1,231 @@
+# System / UI strings from the literal sweep (MegatenCanvas). JP TAB EN. Fragments that pattern templates
+# already cover are not repeated here. Leading/trailing spaces in keys are part of the source string.
+#
+# --- Full-width headers: keep the original style (identity entries silence the untranslated log)
+ＭＯＯＮ	ＭＯＯＮ
+ＭＡＧＩＣ	ＭＡＧＩＣ
+ＩＴＥＭ	ＩＴＥＭ
+ＳＵＭＭＯＮ	ＳＵＭＭＯＮ
+ＲＥＴＵＲＮ	ＲＥＴＵＲＮ
+ＲＥＳＵＬＴ	ＲＥＳＵＬＴ
+ＥＸＰ	ＥＸＰ
+ＯＫ	OK
+ＣＡＮＣＥＬ	CANCEL
+#
+# --- Items / pause menu
+アイテムを持っていない	You have no items.
+アイテムを捨てます。	Drop an item.
+使っても効果はない様だ	It seems to have no effect.
+効果が切れた	The effect wore off.
+# Return-to-title box: the cursor box is StringWidth(" いいえ ") wide, so keep these exact lengths (16 / 8)
+"  はい   いいえ "	"  Yes      No   "
+" いいえ "	"   No   "
+#
+# --- Battle: status lines (drawn under a "{name}" line)
+しかし、何もなかった・・・	But there was nothing...
+しびれて動けない	is paralyzed!
+凍って動けない	is frozen!
+金縛りで動けない	is bound!
+石化で動けない	is petrified!
+眠っている	is asleep.
+HP、MPが10回復	Recovered 10 HP and MP.
+浮かれている	is giddy with joy!
+混乱している	is in a panic!
+魅了されている	is charmed!
+逃げのびた	Escaped safely!
+逃げられなかった	Couldn't escape!
+しかし効果はなかった	But it had no effect.
+効果が無いようだ	It seems to have no effect.
+効果はなかった	It had no effect.
+テトラカーンがかかった	Tetrakarn is in effect!
+マカラカーンがかかった	Makarakarn is in effect!
+元気が出た！	Energy restored!
+副作用が・・・！	Side effects...!
+悪魔達は立ち去った	The demons went away.
+敵は突然襲い掛かってきた！	The enemy ambushed you!
+敵の不意をついた！	You caught the enemy off guard!
+#
+# --- Cathedral of Shadows (邪教の館): Union_Initialize / Union_*Draw
+邪教の館へようこそ、何が望みだ？	Welcome to the Cathedral of Shadows,\nwhere demons gather.\nWhat do you seek?
+合体させる悪魔を二体選びなさい。	Choose two demons to fuse.
+この２体でよろしいか？	Fuse these two?
+が誕生する	 will be created.
+MAG必要だ。	 MAG required.
+今後ともヨロシク・・・	I look forward to working with you...
+# Voice 6 (demons that can't talk) has no entry and keeps the line above.
+@greet.fuse.0	From now on, I am yours.
+@greet.fuse.1	Don't slow me down.
+@greet.fuse.2	Prove yourself worthy of me.
+@greet.fuse.3	I look forward to serving you.
+@greet.fuse.4	Let's get along, 'kay?
+@greet.fuse.5	Let's be pals!
+その２体は合体できない	Those two cannot be fused.
+MAGが足りない	Not enough MAG.
+それでは合体を行う・・・	Then let the fusion begin...
+残念だが今のおまえのレベルでは	Alas, at your current level,
+手におえない様だな。	that one is beyond your control.
+合体事故が起きて予定ではない悪魔が	A fusion accident! An unexpected demon
+できてしまった！！！	has been created!!!
+それでは召喚しよう	Then I shall summon it.
+合成できる組み合わせを	You don't seem to have any
+持っていないようだ	combination that can be fused.
+合体できる組み合わせの悪魔がいないようだ	You have no demons that can be fused.
+その悪魔はすでに仲魔にいるぞ	That demon is already in your party.
+話す	Talk
+悪魔合体	Fusion
+剣合体	Sword Fusion
+悪魔召喚	Summon
+合成できる悪魔がいない	There are no demons to fuse.
+召喚できる悪魔はいない	There are no demons to summon.
+これ以上仲魔は連れて行けない	You can't take any more demons.
+どの種類の悪魔を召喚するかね？	What kind of demon will you summon?
+どの悪魔を召喚するかね？	Which demon will you summon?
+その組み合わせでは合成はできんぞ	That combination cannot be fused.
+合体させる仲魔を選ぶがいい	Choose the demon to fuse.
+合体させる剣を選ぶがいい	Choose the sword to fuse.
+# Sword fusion result: "名剣" + sword + "が誕生した、" on one line, then "持っていくがよい"
+名剣	""
+が誕生した、	" is forged. Take it."
+持っていくがよい	""
+ここは邪教の館。\n\n\n\n我々の秘術は、悪魔を従えし\nお主の助けとなり得るだろう。\n\n\n悪魔合体とは・・・\n\n\n\n悪魔同士を合体させ、\nより強い悪魔を生み出す秘術である。\n\n\nそして、\n月の満ち欠けにも影響を受ける事がある\n\n\n剣合体とは・・・\n\n\n\n特定の悪魔とアイテムを合体させ、\n強力な剣(武器)を生み出す秘術である。\n\n\n悪魔召喚とは・・・\n\n\n\n仲魔にした、\nもしくは合体で生み出した悪魔を\n\n\n必要なＭＡＧを支払えば\n召喚出来る秘術である。\n\n\n以上が邪教の館で出来る事だが、\n何がお望みかな？	This is the Cathedral of Shadows.\n\n\n\nOur secret arts will surely aid\none who commands demons.\n\n\nDemon Fusion...\n\n\n\nfuses demons with one another\nto create stronger demons.\n\n\nIt is also swayed by\nthe waxing and waning of the moon.\n\n\nSword Fusion...\n\n\n\nfuses certain demons with items\nto forge powerful swords (weapons).\n\n\nDemon Summoning...\n\n\n\ncalls forth demons you have\nrecruited or created by fusion,\n\n\nprovided you pay\nthe MAG required.\n\n\nThat is all the Cathedral offers.\nNow, what is your desire?
+#
+# --- Shop extras
+"現在所持数 "	"Owned: "
+個	" "
+#
+# --- Infirmary (HealingRoom_*)
+いらっしゃい。	Welcome.
+治療	Treatment
+# sub-options under Treatment
+回復	Heal
+MAG交換	MAG Exchange
+異常治療	Cure
+蘇生	Revive
+お金が足りない	Not enough money.
+どいつを回復するんだ？	Who needs patching up?
+どちらにするんだ？	Which one will it be?
+交換したいのはどちらかな？？	Which way would you like to exchange?
+交換する額を決めてくれ	Decide how much to exchange.
+￥１０  →  １MAG	\10  →  1 MAG
+ １MAG  →  ￥１０	 1 MAG  →  \10
+交換しました	" Exchanged!"
+#
+# --- Equipment screen (EquipSetDraw)
+攻撃	Atk
+命中	Hit
+防御	Def
+回避	Eva
+魔法威力	MagPow
+魔法効果	MagEff
+敵全員	All foes
+ 全員	 All
+# Hit-count ranges (weapon "Hits" column; the full-width wave dash isn't in the English look)
+" 0～1"	" 0-1"
+" 0～2"	" 0-2"
+" 1～2"	" 1-2"
+" 1～3"	" 1-3"
+" 2～3"	" 2-3"
+" 2～4"	" 2-4"
+" 2～8"	" 2-8"
+" 3～5"	" 3-5"
+" 3～6"	" 3-6"
+" 5～8"	" 5-8"
+" 0～8"	" 0-8"
+ノーマル	Normal
+対火炎1	vsFire1
+対火炎2	vsFire2
+対氷結1	vsIce1
+対氷結2	vsIce2
+対電撃	vsElec
+対衝撃	vsForce
+対雷火	vsElec/Fire
+対サイコ	vsPsycho
+全対応	vsAll
+ 吸電	 Drain Elec
+ 保温	 Insulated
+神聖防具	Holy Armor
+     力   +１	     St +1
+     力   +２	     St +2
+     力   +３	     St +3
+     知力 +１	     In +1
+     知力 +２	     In +2
+     知力 +３	     In +3
+     魔力 +１	     Ma +1
+     魔力 +２	     Ma +2
+     魔力 +３	     Ma +3
+     体力 +１	     Vi +1
+     体力 +２	     Vi +2
+     体力 +３	     Vi +3
+     機敏 +１	     Ag +1
+     機敏 +２	     Ag +2
+     機敏 +３	     Ag +3
+     運   +１	     Lu +1
+     運   +２	     Lu +2
+     運   +３	     Lu +3
+力   +１、体力 +１	St +1, Vi +1
+力   +３、機敏 +１	St +3, Ag +1
+知力 +１、魔力 +２	In +1, Ma +2
+知力 +１、魔力 +３	In +1, Ma +3
+機敏 +１、運   +１	Ag +1, Lu +1
+     全て +１	     All +1
+     全て +２	     All +2
+     呪い	     Cursed
+力   +３、呪い	St +3, Cursed
+魔力 +３、呪い	Ma +3, Cursed
+体力 +３、呪い	Vi +3, Cursed
+装備をはずす	Unequip
+攻撃 +	Atk +
+攻撃回数	Hits
+属性	Align
+命中 +	Hit +
+追加効果	Effect
+防御 +	Def +
+相性	Res
+回避 +	Eva +
+#
+# --- Network / download (mostly unused in this port, kept for completeness)
+ｼﾅﾘｵﾀﾞｳﾝﾛｰﾄﾞに失敗しました	Scenario download failed.
+通信に失敗しました	Connection failed.
+ﾀﾞｳﾝﾛｰﾄﾞ	Download
+ロード	Load
+ダウンロード	Download
+読み込み失敗	Load failed
+#
+# --- Short forms for fixed-width columns (NarrowScreens in Plugin.cs: infirmary status column fits 6 letters)
+@narrow.PALYZE	PARLYZ
+# Infirmary name column fits 11 letters (InfirmaryNameFit); short forms for the longer demon names
+@narrow.Tezcatlipoca	Tezcatlipo.
+@narrow.Kushinada-Hime	Kushinada
+@narrow.Ame-no-Uzume	Ame-Uzume
+@narrow.Seiten Taisei	Seiten T.
+@narrow.Take-Mikazuchi	Mikazuchi
+@narrow.Hinokagutsuchi	Kagutsuchi
+@narrow.Nagasunehiko	Nagasune
+@narrow.Take-Minakata	Minakata
+@narrow.Kotoshironushi	Kotoshiro.
+@narrow.Hitokoto-Nushi	Hitokoto
+@narrow.Temple Knight	T. Knight
+@narrow.Yamata-no-Orochi	Orochi
+@narrow.Quetzalcoatl	Quetzalc.
+@narrow.Shuten-Douji	Shuten
+@narrow.Ibaraki-Douji	Ibaraki
+# Buy/sell confirm: "{item}ですね？" / "￥{price}" + "に" (drawn alone, right after the number) / "なりますがよろしいですか？"
+に	" total."
+@layout.firstdemon	104:60,114:68,144:114,149:122,174:156,185:164
+# Game over (Battle_DrawSubWindow, GenWorkByte[0] 21/22): the heroine's vision; line 1 is the pattern あぁ･･･{name}･･･ (patterns_battle). One DrawString per line, no wrap: keep under ~38 chars.
+あなたまで、倒れてしまうなんて･･･	I can't believe you've fallen too...
+@layout.equip	75:80,175:172,135:106,115:103
+#
+# --- Demon Compendium enhancement (CompendiumMenu / CompendiumSummon in Plugin.cs; {0}/{1} = name / level)
+@comp.menu	Compendium
+@comp.pick	Which demon will you record?
+@comp.ask	Record {0} at Lv {1}?
+@comp.done	{0} has been recorded.
+@comp.empty	There are no demons to record.
+@comp.reclv	(Rec {0})
+@comp.replace	Replaces the Lv {0} record.
+@comp.replacehigher	Replaces the higher Lv {0} record!
+@comp.yes	Yes
+@comp.no	No
+@comp.base	← Base →
+@comp.rec	← Recorded →

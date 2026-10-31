@@ -1,0 +1,155 @@
+# item names by ID: id TAB jp (exact in-data name, guards renamed slots) TAB en
+1	アタックナイフ	Attack Knife
+2	スパイクロッド	Spiked Rod
+3	模造刀	Imitation Katana
+4	無銘の刀	Nameless Katana
+5	バトルハンマー	Battle Hammer
+6	チェーンソー	Chainsaw
+7	グラディウス	Gladius
+8	三日月の太刀	Crescent Tachi
+9	銘刀虎鉄	Kotetsu Blade
+10	×光の小太刀	Light Kodachi
+11	備前長船	Bizen-Osafune
+12	ギロチンアクス	Guillotine Axe
+13	草薙の剣	Kusanagi
+14	プラズマソード	Plasma Sword
+15	カムドの剣	Sword of Kamudo
+16	クチナワの剣	Kuchinawa Sword
+17	独鈷杵	Tokkosho
+18	七星剣	Shichiseiken
+19	布都御霊	Futsunomitama
+20	冥土の土産	Gift of Hades
+21	飛行三鈷	Higyosanko
+22	デスブリンガー	Deathbringer
+23	クラウソナス	Claiomh Solais
+24	練気の剣	Renki Sword
+25	八束の剣	Yatsuka-no-Ken
+26	ロータスワンド	Lotus Wand
+27	覇王の剣	Dynast Sword
+28	風神剣	Fujin Sword
+29	ロンギヌス	Longinus
+30	雷神剣	Raijin Sword
+31	天叢雲	Ame-no-Murakumo
+32	天御剣	Ama-no-Mitsurugi
+33	倶利伽羅の剣	Kurikara Sword
+34	将門の刀	Masakado's Katana
+35	ヒノカグツチ	Hinokagutsuchi
+36	×トンファー	Tonfa
+37	マチェット	Machete
+38	×さそりムチ	Scorpion Whip
+39	三節棍	Sansetsukon
+40	青龍刀	Seiryuto
+41	ソニックブレード	Sonic Blade
+42	×ランスオブカー	Cursed Lance
+43	妖刀ニヒル	Nihil Blade
+44	×首刈りスプーン	Beheading Spoon
+45	×天使のラッパ	Angel's Trumpet
+46	ヘッドギア	Headgear
+47	フリッツヘルム	Fritz Helm
+48	デュラハンヘルム	Dullahan Helm
+49	ダーククラウン	Dark Crown
+50	マスカレード	Masquerade
+51	ドラゴンヘルム	Dragon Helm
+52	知恵の輪	Wisdom Ring
+53	緊箍	Kinko
+54	ヘルメスヘルム	Hermes Helm
+55	ジーザスヘルム	Jesus Helm
+56	将門の兜	Masakado's Helm
+57	天魔の兜	Tenma Helm
+58	ヤクトヘルム	Jagd Helm
+59	月影の紐	Moonbeam String
+60	魔導士のマスク	Magician's Mask
+61	諏訪法性	Suwa-Hossho Helm
+62	サバイバーベスト	Survivor Vest
+63	ケブラーベスト	Kevlar Vest
+64	法の衣	Robe of Law
+65	イタリアーマー	Italian Armor
+66	テトラジャマー	Tetrajammer
+67	パワードスーツ	Powered Suit
+68	覇王の鎧	Dynast Armor
+69	ドラゴンメイル	Dragon Mail
+70	漆黒の鎧	Jet-Black Armor
+71	白魔の鎧	White Armor
+72	ヤクトアーマー	Jagd Armor
+73	アースメイル	Earth Mail
+74	アーガマスーツ	Agama Suit
+75	ジーザスアーマー	Jesus Armor
+76	天魔の鎧	Tenma Armor
+77	将門の鎧	Masakado's Armor
+78	レザーグラブ	Leather Gloves
+79	リベットナックル	Rivet Knuckle
+80	カイザーナックル	Kaiser Knuckles
+81	サイバーアーム	Cyber Arm
+82	アイアンクロー	Iron Claw
+83	アトラスの篭手	Atlas Gauntlet
+84	鬼神の篭手	Kishin Gauntlet
+85	ドラウプニル	Draupnir
+86	ヤクトグラブ	Jagd Gloves
+87	パンツァフィスト	Panzer Fist
+88	ジーザスグラブ	Jesus Gloves
+89	天魔の篭手	Tenma Gauntlet
+90	将門の篭手	Masakado's Gauntlet
+91	レザーブーツ	Leather Boots
+92	コンバットブーツ	Combat Boots
+93	ライダーブーツ	Rider Boots
+94	ジェットブーツ	Jet Boots
+95	ドラゴンブ－ツ	Dragon Boots
+96	パンツァーレッグ	Panzer Leg
+97	メタルブーツ	Metal Boots
+98	ヤクトレッグ	Jagd Leg
+99	ジーザスレッグ	Jesus Boots
+100	武者の具足	Warrior's Greaves
+101	天魔の具足	Tenma Greaves
+102	将門の具足	Masakado's Greaves
+103	火炎ビン	Molotov
+104	マハラギストーン	Maragi Stone
+105	アギラオストーン	Agilao Stone
+106	マハブフストーン	Mabufu Stone
+107	マハジオストーン	Mazio Stone
+108	ジオンガストーン	Zionga Stone
+109	ハンドグレネード	Hand Grenade
+110	スティンガー	Stinger
+111	ドラゴンＡＴＭ	Dragon ATM
+112	地獄玉	Hell Orb
+113	破魔矢	Light Arrow
+114	聖水	Holy Water
+115	施餓鬼米	Segaki Rice
+116	魂返り	Soul Return
+117	蟲毒皿	Kodoku Plate
+118	秘孔針	Pressure Needle
+119	毒薬ビン	Poison Bottle
+120	毒矢	Poison Arrow
+121	チャーム	Charm
+122	脇見の壺	Haze Pot
+123	傷薬	Medicine
+124	牛黄丹	Ox Bezoar
+125	マッスルドリンコ	Muscle Drink
+126	ヒランヤ	Hiranya
+127	魔法ビン	Magic Bottle
+128	魔石	Life Stone
+129	宝玉	Bead
+130	ソーマ	Soma
+131	金丹	Jin Dan
+132	反魂香	Balm of Life
+133	エンゼルヘアー	Angel Hair
+134	阿修羅の掌	Asura's Palm
+135	如来像	Nyorai Statue
+136	阿弥陀数珠	Amida Beads
+137	ロザリオ	Rosary
+138	おみくじ	Fortune Slip
+139	ディスポイズン	Dis-Poison
+140	ディスパライズ	Dis-Paralyze
+141	ディストーン	Dis-Stone
+142	力の香	St Incense
+143	知恵の香	In Incense
+144	魔力の香	Ma Incense
+145	体力の香	Vi Incense
+146	速さの香	Ag Incense
+147	運の香	Lu Incense
+148	タリスマン	Talisman
+149	ペンタグラム	Pentagram
+150	煙幕弾	Smoke Bomb
+151	免罪符	Indulgence
+152	×アムレット	Amulet
+153	×コアシールド	Core Shield
+154	封魔の鈴	Repulse Bell

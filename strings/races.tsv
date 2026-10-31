@@ -1,0 +1,49 @@
+# Demon races (CCharacter.RaceAttributeStringData[0]) and race groups ([1]): exact-match JP TAB EN.
+# Source in the trailing comment column is ignored by the plugin. First-demon list column fits 5 chars.
+魔神	Deity	# race1 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+女神	Megami	# race2 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+天魔	Tenma	# race3 fan/suggestion
+鬼神	Kishin	# race4 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers; Devil Survivor 1 & 2
+セラフ	Seraph	# race5 fan/suggestion
+天使	Divine	# race6 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+龍神	Dragon	# race7 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+神獣	Avatar	# race8 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+霊鳥	Avian	# race9 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+聖獣	Holy	# race10 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+精霊	Element	# race11 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+鬼女	Femme	# race12 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+妖魔	Yoma	# race13 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2
+夜魔	Night	# race14 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2
+妖精	Fairy	# race15 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+堕天使	Fallen	# race16 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+妖鳥	Flight	# race17 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+龍王	Snake	# race18 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+魔獣	Beast	# race19 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+闘鬼	Touki	# race20 Devil Survivor 1 & 2
+妖鬼	Brute	# race21 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2
+地霊	Jirae	# race22 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2
+獣人	Therian	# race23 fan/suggestion
+メシア教徒	Messian	# race24 fan/suggestion
+ガイア教徒	Gaean	# race25 fan/suggestion
+邪神	Vile	# race26 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+邪龍	Drake	# race27 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+魔王	Tyrant	# race28 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+凶鳥	Raptor	# race29 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+妖獣	Wilder	# race30 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+邪鬼	Jaki	# race31 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+幽鬼	Haunt	# race32 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+悪霊	Spirit	# race33 SMT IV / IV: Apocalypse; Strange Journey Redux; Soul Hackers; Devil Survivor 1 & 2
+屍鬼	Undead	# race34 SMT IV / IV: Apocalypse; Strange Journey Redux; Soul Hackers
+外道	Foul	# race35 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers 1 & 2; Devil Survivor 1 & 2
+マシン	Cyber	# race36 SMT IV
+魔人	Fiend	# race37 SMT V / V: Vengeance; SMT IV / IV: Apocalypse; SMT III Nocturne HD; Strange Journey Redux; Soul Hackers; Devil Survivor 1 & 2
+神族	Deity	# group1 Digital Devil Saga 1 & 2
+鬼神族	Icon	# group2 Digital Devil Saga 2
+魔族	Nether	# group3 Digital Devil Saga 2
+飛天	Aerial	# group4 Digital Devil Saga 1 & 2
+龍族	Dragon	# group5 Digital Devil Saga 1 & 2
+鳥族	Avian	# group6 Digital Devil Saga 1 & 2
+獣族	Beast	# group7 Digital Devil Saga 1 & 2
+鬼族	Brute	# group8 Digital Devil Saga 1 & 2
+邪霊	Evil Spirit	# group10 Digital Devil Saga 1 & 2
+人	Humans	# group12 fan/suggestion

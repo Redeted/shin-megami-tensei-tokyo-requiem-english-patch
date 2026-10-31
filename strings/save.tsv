@@ -1,0 +1,39 @@
+# Save / load / chapter strings (Sys menus). Chapter labels are built as 第+N+章, listed here in full.
+第一章	Chapter 1
+第二章	Chapter 2
+第三章	Chapter 3
+第四章	Chapter 4
+第五章	Chapter 5
+第六章	Chapter 6
+第七章	Chapter 7
+第1章のデータです	This is Chapter 1 data.
+現在第1章のデータです	Current data: Chapter 1.
+第1章のシナリオをロードしますか	Load the Chapter 1 scenario?
+第2章のデータです	This is Chapter 2 data.
+現在第2章のデータです	Current data: Chapter 2.
+第2章のシナリオをロードしますか	Load the Chapter 2 scenario?
+第3章のデータです	This is Chapter 3 data.
+現在第3章のデータです	Current data: Chapter 3.
+第3章のシナリオをロードしますか	Load the Chapter 3 scenario?
+第4章のデータです	This is Chapter 4 data.
+現在第4章のデータです	Current data: Chapter 4.
+第4章のシナリオをロードしますか	Load the Chapter 4 scenario?
+第5章のデータです	This is Chapter 5 data.
+現在第5章のデータです	Current data: Chapter 5.
+第5章のシナリオをロードしますか	Load the Chapter 5 scenario?
+第6章のデータです	This is Chapter 6 data.
+現在第6章のデータです	Current data: Chapter 6.
+第6章のシナリオをロードしますか	Load the Chapter 6 scenario?
+第7章のデータです	This is Chapter 7 data.
+現在第7章のデータです	Current data: Chapter 7.
+第7章のシナリオをロードしますか	Load the Chapter 7 scenario?
+セーブする場所を選んでください	Select a slot to save to.
+ロードするデータを選んでください	Select a file to load.
+上書きセーブしますか	Overwrite this save?
+セーブしました	Game saved.
+データの更新に失敗しました	Failed to update data.
+# Full-width header label: keep the original style (identity entry also silences the untranslated log)
+ＭＡＧ	ＭＡＧ
+# Empty-slot marker (full-width dash). Identity entry: keeps the look and silences the log.
+－	－
+天界魔界	Load Heaven and Hell?

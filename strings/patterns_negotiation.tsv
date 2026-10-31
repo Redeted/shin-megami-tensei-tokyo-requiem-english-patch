@@ -1,0 +1,35 @@
+# Negotiation messages built by concatenation. JP regex (anchored) TAB EN template; see patterns_battle.tsv.
+# Yen: the game font draws "\" as the yen sign (the code itself uses "\\"); a real ¥ shows up as a backslash.
+# Two-line messages (StringArray[12] + [13]) are matched joined, so each template is one full sentence.
+#
+# --- Greeting a demon of a race you already have (Battle_TalkInit): "{hero}は{demon}と" + "親しげに挨拶を交わした"
+([^、。「」『』…\n]+)は([^、。「」『』…\n]+)と親しげに挨拶を交わした	{1} and {2} exchanged friendly greetings.
+#
+# --- Results (Battle_TalkingMain)
+([^、。「」『』…\n]+)は満足して去っていった	{1} left, satisfied.
+([^、。「」『』…\n]+)は仲魔になるのを考え直した	{1} had second thoughts about joining.
+([^、。「」『』…\n]+)は仲魔になった	{1} joined your party!
+([^、。「」『』…\n]+)は去っていった	{1} went away.
+([^、。「」『』…\n]+)が襲い掛かってきた	{1} attacks!
+# Recruit line: pronoun (one per voice) + "は、" + race + " " + name, then "今後ともヨロシク".
+ワタシは、([^ ]+) (.+)今後ともヨロシク	I am {1} {2}. From now on, I am yours.
+ワシは、([^ ]+) (.+)今後ともヨロシク	Name's {1} {2}. Don't slow me down.
+我は、([^ ]+) (.+)今後ともヨロシク	I am {1} {2}. Prove yourself worthy of me.
+私は、([^ ]+) (.+)今後ともヨロシク	I am {1} {2}. I look forward to serving you.
+あたしは、([^ ]+) (.+)今後ともヨロシク	I'm {1} {2}! Let's get along, 'kay?
+オイラは、([^ ]+) (.+)今後ともヨロシク	I'm {1} {2}! Let's be pals!
+#
+# --- Demands when you choose Give (Battle_TalkingDeamonResultType1). Money is "￥{n}ほど"; items are names.
+# One line only (the Give / Don't give choices sit under it), so keep these short.
+￥(\d+)ほど欲しそうだ	It seems to want about \{1}.
+([^぀-ヿ一-鿿]+)が欲しそうだ	It seems to want {1}.
+￥(\d+)ほどもらおうか	Hand over \{1} or so.
+では、([^぀-ヿ一-鿿]+)をもらおうか	Then I'll take your {1}.
+￥(\d+)ほど我に貢ぐのだ	Offer me \{1} in tribute.
+では、([^぀-ヿ一-鿿]+)を我に貢ぐのだ	Now, offer me your {1}.
+では￥(\d+)ほど頂きましょうか	May I have about \{1}, then?
+では([^぀-ヿ一-鿿]+)を頂きましょうか	May I have your {1}, then?
+それじゃ￥(\d+)ほどちょーだい	Then gimme \{1} or so!
+それじゃ([^぀-ヿ一-鿿]+)ちょーだい	Then gimme your {1}!
+じゃ～ね～￥(\d+)ほどクレ	Ooh, ooh! Gimme \{1}!
+じゃ～ね～([^぀-ヿ一-鿿]+)クレ	Ooh, ooh! Gimme your {1}!

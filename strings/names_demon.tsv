@@ -1,0 +1,253 @@
+# demon names by ID: id TAB jp (exact in-data name, guards renamed slots) TAB en
+1	トウテツ	Taotie
+2	オーカス	Orcus
+3	テトカトリポカ	Tezcatlipoca
+4	ミシャグジさま	Mishaguji
+5	フレスベルグ	Hresvelgr
+6	グルル	Gurr
+7	フリアイ	Furiae
+8	フケイ	Fuxi
+9	ギリメカラ	Girimehkala
+10	×サイクロプス	Cyclops
+11	ラクシャーサ	Rakshasa
+12	×バーベガジ	Barbegazi
+13	ルシファー	Lucifer
+14	ウェンディゴ	Wendigo
+15	オーク	Orc
+16	×ドンコウ	Donkou
+17	グレムリン	Gremlin
+18	×Ｔ９５Ｄ	T95D
+19	×Ｔ９５Ｃ／Ｐ	T95C/P
+20	×Ｔ９３Ｇ	T93G
+21	×ビットボール	Bit Ball
+22	×ビッグフット	Bigfoot
+23	×クグツ	Kugutsu
+24	フェンリル	Fenrir
+25	クラーケン	Kraken
+26	マンティコア	Manticore
+27	タマモ	Tamamo
+28	アツユ	Atsuyu
+29	ヌエ	Nue
+30	コープス	Corpse
+31	ゾンビアーミー	Army Zombie
+32	ボディコニアン	Bodyconian
+33	ゾンビコップ	Zombie Cop
+34	×オバタリオン	Obattarion
+35	レディーゾンビ	Zombie Lady
+36	ゾンビ	Zombie
+37	ベルゼブブ	Beelzebub
+38	マーラ	Mara
+39	バエル	Bael
+40	ダゴン	Dagon
+41	ファフニール	Fafnir
+42	サーペント	Serpent
+43	バジリスク	Basilisk
+44	ワイバーン	Wyvern
+45	×ワイアーム	Wyrm
+46	コカトライス	Cockatrice
+47	ワーム	Worm
+48	リッチ	Lich
+49	×ヴェーダラ	Vetala
+50	サンニ・ヤカー	Sanni Yaka
+51	サウォバク	Sawo Bhaku
+52	ベイコク	Baykok
+53	×マンイーター	Man Eater
+54	グール	Ghoul
+55	×おしち	Oshichi
+56	ガキ	Preta
+57	レギオン	Legion
+58	ファントム	Phantom
+59	ラルウァイ	Larvae
+60	ピシャーチャ	Pisaca
+61	×レムルース	Lemures
+62	×シェイド	Shade
+63	ゴースト	Ghost
+64	バックベアード	Backbeard
+65	サタン	Satan
+66	スライム	Slime
+67	モウリョウ	Mou-Ryo
+68	やくざ	Yakuza
+69	×ちんぴら	Hoodlum
+70	×デイビット	David
+71	×ペイルライダー	Pale Rider
+72	×だいそうじょう	Daisoujou
+73	ヴィシュヌ	Vishnu
+74	インドラ	Indra
+75	フドウミョウオウ	Fudo Myo-o
+76	オーディン	Odin
+77	アラハバキ	Arahabaki
+78	ロキ	Loki
+79	ラクシュミ	Lakshmi
+80	キクリヒメ	Kikuri-Hime
+81	サラスヴァティ	Sarasvati
+82	クシナダヒメ	Kushinada-Hime
+83	アメノウズメ	Ame-no-Uzume
+84	×ガブリエル	Gabriel
+85	×ラファエル	Raphael
+86	×ウリエル	Uriel
+87	×ケルプ	Cherub
+88	ソロネ	Throne
+89	ドミニオン	Dominion
+90	ヴァーチャー	Virtue
+91	×パワー	Power
+92	アークエンジェル	Archangel
+93	エンジェル	Angel
+94	ガルーダ	Garuda
+95	ヤタガラス	Yatagarasu
+96	フェニックス	Phoenix
+97	ジャターユ	Jatayu
+98	ホウオウ	Feng Huang
+99	ゲンブ	Genbu
+100	キリン	Kirin
+101	パピルサグ	Pabilsag
+102	ハクタク	Bai Ze
+103	ユニコーン	Unicorn
+104	バロン	Barong
+105	キマイラ	Chimera
+106	ナラシンハ	Narasimha
+107	ナンディ	Nandi
+108	サラマンダー	Salamander
+109	ウンディーネ	Undine
+110	シルフ	Sylph
+111	ノーム	Gnome
+112	フレイミーズ	Flaemis
+113	アクアンズ	Aquans
+114	エアロス	Aeros
+115	アーシーズ	Erthys
+116	シヴァ	Shiva
+117	マハカーラ	Mahakala
+118	セイテンタイセイ	Seiten Taisei
+119	インドラジット	Indrajit
+120	×ヤマ	Yama
+121	ラーヴァナ	Ravana
+122	×アグニ	Agni
+123	ビシャモンテン	Bishamonten
+124	ニオウ	Niou
+125	×タケミカヅチ	Take-Mikazuchi
+126	ヒノカグツチ	Hinokagutsuchi
+127	ジコクテン	Jikokuten
+128	×コウモクテン	Koumokuten
+129	×ゾウチョウテン	Zouchouten
+130	×ナガスネヒコ	Nagasunehiko
+131	タケミナカタ	Take-Minakata
+132	オオモノヌシ	Omononushi
+133	×コトシロヌシ	Kotoshironushi
+134	×ヒトコトヌシ	Hitokoto-Nushi
+135	アナンタ	Ananta
+136	マヤ	Maya
+137	ペクヨン	Baek Yong
+138	ヴリトラ	Vritra
+139	ガンガー	Ganga
+140	コワトリクエ	Coatlicue
+141	ハヌマーン	Hanuman
+142	ガネーシャ	Ganesha
+143	キンナラ	Kinnara
+144	テング	Tengu
+145	×コロンゾン	Choronzon
+146	×オンコット	Ongkot
+147	×ロア	Loa
+148	×ウォッチャー	Watcher
+149	イソラ	Isora
+150	セイレーン	Siren
+151	バイブ・カハ	Badb Catha
+152	コカクチョウ	Gu Huo Niao
+153	ハーピー	Harpy
+154	アプサラス	Apsaras
+155	×キンナリー	Kinnari
+156	アトラス	Atlas
+157	×ジャイアント	Giant
+158	サルタヒコ	Sarutahiko
+159	カワンチャ	Kwancha
+160	×ドワーフ	Dwarf
+161	×ブッカブー	Bugaboo
+162	ツチグモ	Tsuchigumo
+163	×ファハン	Fachan
+164	コボルト	Kobold
+165	ノッカー	Knocker
+166	×ブラウニー	Brownie
+167	×スキャナー	Scanner
+168	×メイガス	Magus
+169	×テンプルナイト	Temple Knight
+170	×きょうしんしゃ	Fanatic
+171	オベロン	Oberon
+172	×センコ	Senko
+173	クー・フーリン	Cu Chulainn
+174	×タム・リン	Tam Lin
+175	トロール	Troll
+176	×センリ	Senri
+177	×ボブゴブリン	Hobgoblin
+178	エルフ	Elf
+179	×ケルピー	Kelpie
+180	ルサールカ	Rusalka
+181	×ガンダルバ	Gandharva
+182	×ドリアード	Dryad
+183	ジャックランタン	Pyro Jack
+184	ジャックフロスト	Jack Frost
+185	×ゴブリン	Goblin
+186	ピクシー	Pixie
+187	グリフォン	Gryphon
+188	ケルベロス	Cerberus
+189	×ラクチャランゴ	Rakcharango
+190	オルトロス	Orthrus
+191	タムズ	Tammuz
+192	×ストーンカ	Stonka
+193	ネコマタ	Nekomata
+194	×タンキ	Tan-Ki
+195	×カーシー	Cu Sith
+196	サンキ	Sanki
+197	ヤクシャ	Yaksha
+198	ガブリエル	Gabriel
+199	メズキ	Mezuki
+200	ゴズキ	Gozuki
+201	ヤクシニー	Yakshini
+202	スパルトイ	Spartoi
+203	ワーウルフ	Werewolf
+204	ワーキャット	Werecat
+205	ワードッグ	Weredog
+206	カーリー	Kali
+207	×ハリティー	Hariti
+208	ランダ	Rangda
+209	スキュラ	Scylla
+210	ダーキニー	Dakini
+211	ゴルゴン	Gorgon
+212	×ターラカ	Taraka
+213	×ラミア	Lamia
+214	ヴァンパイア	Vampire
+215	サキュバス	Succubus
+216	インキュバス	Incubus
+217	×ニ・カロン	Ni Calon
+218	ミカエル	Michael
+219	リリム	Lilim
+220	×ナイトメア	Nightmare
+221	×キャク	Cyak
+222	インプ	Imp
+223	フラロウス	Flauros
+224	×フルーレディ	Fleurety
+225	×アバドン	Abaddon
+226	×サマエル	Samael
+227	×マルコキアス	Marchosias
+228	オセ	Ose
+229	デカラビア	Decarabia
+230	×レオナルド	Leonard
+231	×オロバス	Orobas
+232	シトリー	Sitri
+233	ベリス	Berith
+234	フォルネウス	Forneus
+235	×ガミジン	Gamigin
+236	×アンドラス	Andras
+237	ペンドラゴン	Pendragon
+238	ヤマタノオロチ	Yamata-no-Orochi
+239	×イツァム・ナー	Itzamna
+240	ケツアルカトル	Quetzalcoatl
+241	ユルング	Yurlungur
+242	ナーガ・ラジャ	Naga Raja
+243	シュテンドウジ	Shuten-Douji
+244	トウルダク	Turdak
+245	イバラギドウジ	Ibaraki-Douji
+246	プルシキ	Pulukishi
+247	モムノフ	Momunofu
+248	×ボーグル	Bogle
+249	アズミ	Azumi
+250	×アサシン	Assassin
+251	×やみほうし	Dark Priest
+255	×とっこうたい	Tokkotai

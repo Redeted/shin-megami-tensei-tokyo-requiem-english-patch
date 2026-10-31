@@ -1,0 +1,2 @@
+# G-MODE wrapper dialogs (CommonDialog.Init). JP regex TAB EN template.
+「(.+)」で宜しいですか？	Is "{1}" correct?

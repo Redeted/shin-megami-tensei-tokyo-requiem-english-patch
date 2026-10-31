@@ -1,0 +1,10 @@
+# G-MODE wrapper UI that isn't in their Localization table (uGUI dialogs).
+# The same prompt is used for the protagonist AND the heroine, so keep it neutral.
+# Name entry (CharacterInputDialog / CharacterInputKeyItem). Keys with one character are never swapped. Key captions fit about 4 chars ("Delete" clipped to "Delet").
+名前を入力してください	Enter a name.
+文字を入力してください	Enter text.
+削除	Del
+決定	OK
+#
+# Window dialog (WindowDialog prefab text, swept by the plugin)
+フルスクリーン	Fullscreen

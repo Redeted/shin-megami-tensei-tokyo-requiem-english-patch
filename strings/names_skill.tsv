@@ -1,0 +1,85 @@
+# skill names by ID: id TAB jp (exact in-data name, guards renamed slots) TAB en
+1	アギ	Agi
+2	アギラオ	Agilao
+3	マハラギ	Maragi
+4	マハラギオン	Maragion
+5	ブフ	Bufu
+6	ブフーラ	Bufula
+7	マハーブフ	Mabufu
+8	マハブフーラ	Mabufula
+9	ジオ	Zio
+10	ジオンガ	Zionga
+11	マハジオ	Mazio
+12	マハジオンガ	Mazionga
+13	テンタラフー	Tentarafoo
+14	メギド	Megido
+15	メギドラオン	Megidolaon
+16	ハンマ	Hama
+17	マハンマ	Mahama
+18	ムド	Mudo
+19	ムドオン	Mudoon
+20	タルカジャ	Tarukaja
+21	ラクカジャ	Rakukaja
+22	スクカジャ	Sukukaja
+23	マカカジャ	Makakaja
+24	テトラジャ	Tetraja
+25	テトラカーン	Tetrakarn
+26	マカラカーン	Makarakarn
+27	ディア	Dia
+28	ディアラマ	Diarama
+29	ディアラハン	Diarahan
+30	メディア	Media
+31	メディアラハン	Mediarahan
+32	パトラ	Patra
+33	ペンパトラ	Penpatra
+34	ポズムディ	Posumudi
+35	パララディ	Paraladi
+36	ペトラディ	Petradi
+37	リカーム	Recarm
+38	サマリカーム	Samarecarm
+39	リカームドラ	Recarmdra
+40	マカトラ	Makatora
+41	トラエスト	Traesto
+42	トラフーリ	Trafuri
+43	エストマ	Estoma
+44	噛みつき	Feral Bite
+45	毒噛みつき	Venom Bite
+46	麻痺噛みつき	Stun Bite
+47	石化噛みつき	Stone Bite
+48	魅惑噛みつき	Charm Bite
+49	体当たり	Tackle
+50	巻きつき	Constrict
+51	暴れまわり	Berserk
+52	押し潰し	Squash
+53	羽ばたき	Wing Flap
+54	引っかき	Feral Claw
+55	毒引っかき	Venom Claw
+56	麻痺引っかき	Stun Claw
+57	必殺	Fatal Blow
+58	テール	Tail
+59	会心	Critical Blow
+60	毒針	Toxic Sting
+61	麻痺針	Stun Needle
+62	九十九針	Needle Rush
+63	パララアイ	Paral Eyes
+64	ペトラアイ	Petra Eyes
+65	死への道	Death Road
+66	ブラッドスチール	Blood Thief
+67	バエルの呪い	Bael's Bane
+68	悪魔のキス	Demon's Kiss
+69	デビルスマイル	Evil Smile
+70	パニックボイス	Panic Voice
+71	バインドボイス	Binding Cry
+72	ファイアブレス	Fire Breath
+73	ファイアボール	Fireball
+74	セクシーダンス	Sexy Dance
+75	ハッピーステップ	Happy Step
+76	デスタッチ	Deathtouch
+77	幸せの歌	Joy Song
+78	子守歌	Lullaby
+79	フォッグブレス	Fog Breath
+80	アイスブレス	Ice Breath
+81	毒ガスブレス	Poison Breath
+82	電撃	Shock
+83	水の壁	Water Wall
+84	炎の壁	Fire Wall

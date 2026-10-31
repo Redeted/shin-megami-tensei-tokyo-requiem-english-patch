@@ -1,0 +1,31 @@
+# Startup self-test: input TAB expected output. The plugin logs every mismatch (BepInEx\LogOutput.log).
+YOU NAME	YOUR NAME
+PALYZE	PARALYZE
+PixieはPALYZEになった	Pixie is afflicted with PARALYZE!
+PixieはPOISONが解けた	Pixie is cured of POISON.
+Pixieの攻撃！！	Pixie attacks!
+PixieのZionga！！	Pixie uses Zionga!
+Zombie Ladyは12のダメージ！	Zombie Lady takes 12 damage!
+Fairy Pixieが2体出た	Fairy Pixie ×2 appeared!
+毒により8のダメージ	Poison deals 8 damage.
+第三章	Chapter 3
+ダンジョンを探索します。	Explore the dungeon.
+「Hero」で宜しいですか？	Is "Hero" correct?
+Pixieが倒された	Pixie was defeated!
+アイテムを持っていない	You have no items.
+# Negotiation (patterns_negotiation.tsv); joined two-line messages
+Pixieは満足して去っていった	Pixie left, satisfied.
+オイラは、妖精 Jack Frost今後ともヨロシク	I'm Fairy Jack Frost! Let's be pals!
+￥300ほど我に貢ぐのだ	Offer me \300 in tribute.
+では、Medicineをもらおうか	Then I'll take your Medicine.
+HeroはPixieと親しげに挨拶を交わした	Hero and Pixie exchanged friendly greetings.
+# Encounter line: race + name capture, translated word by word
+屍鬼 Zombie Ladyが1体出た	Undead Zombie Lady ×1 appeared!
+Furiaeは凍って動けない	Furiae is frozen!
+Jack Frostは混乱している	Jack Frost is in a panic!
+Pixieはしびれて動けない	Pixie is paralyzed!
+Kushinada-HimeはSHOCKになった！！	Kushinada is afflicted with SHOCK!
+Kushinada-Himeの攻撃！！	Kushinada-Hime attacks!
+Yamata-no-Orochiは凍って動けない	Yamata-no-Orochi is frozen!
+第2章をロードしますか？	Load Chapter 2?
+第7章 天界魔界をロードしますか？	Load Chapter 7: Heaven and Hell?

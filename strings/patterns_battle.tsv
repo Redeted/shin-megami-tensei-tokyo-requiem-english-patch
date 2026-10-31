@@ -1,0 +1,85 @@
+# Battle / system messages built by concatenation (MegatenCanvas Battle_*). JP regex (anchored) TAB EN template.
+# {1},{2} = captured groups; each is translated again (names are already English via the ID tables).
+# ORDER MATTERS: the first match wins, so specific templates go above generic ones.
+# Name captures exclude Japanese sentence punctuation; status templates only take the real ailment names, so story text can't match by accident.
+# Battle lines are drawn one by one without wrapping: keep them short (about 37 chars with a long name).
+#
+# --- Attacks and skills (Battle_Control)
+([^、。「」『』…\n]+)の攻撃！！	{1} attacks!
+([^、。「」『』…\n]+)は道具を使おうとした	{1} tried to use an item.
+([^\u3040-\u30ff\u4e00-\u9fff]+)を使った	used {1}.
+([^、。「」『』…\n]+)は仲魔を呼んだ	{1} summoned a demon.
+([^、。「」『』…\n]+)は戦闘に加わった	{1} joined the battle!
+([^、。「」『』…\n]+)は仲魔を戻した	{1} returned a demon.
+([^、。「」『』…\n]+)は戦闘から外れた	{1} left the battle.
+([^、。「」『』…\n]+)は防御している	{1} is on guard.
+([^、。「」『』…\n]+)達は逃げ出した	{1} and party escaped!
+#
+# --- Turn-start ailment lines: Battle_Character.Name + "は" + status (status fragments are in system.tsv)
+([^、。「」『』…\n]+)は(しびれて動けない|凍って動けない|金縛りで動けない|石化で動けない|眠っている|浮かれている|混乱している|魅了されている)	{1} {2}
+#
+# --- Damage-over-time (Battle start of turn)
+毒により(\d+)のダメージ	Poison deals {1} damage.
+呪により(\d+)のダメージ	The curse deals {1} damage.
+#
+# --- Results (Battle_AttackResult / Battle_GetDamageResult)
+([^、。「」『』…\n]+)は復活した	{1} was revived!
+([^、。「」『』…\n]+)が息絶えた･･･	{1} has perished...
+([^、。「」『』…\n]+)息絶えた	{1} has perished.
+([^、。「」『』…\n]+)は倒れた	{1} fell!
+([^、。「」『』…\n]+)を撃破した	{1} was destroyed!
+([^、。「」『』…\n]+)は砕け散った	{1} shattered!
+([^、。「」『』…\n]+)にはきかない	It has no effect on {1}.
+([^、。「」『』…\n]+)には効かなかった	It had no effect on {1}.
+([^、。「」『』…\n]+)は火炎を防いだ	{1} blocked the Fire!
+([^、。「」『』…\n]+)は氷結を防いだ	{1} blocked the Ice!
+([^、。「」『』…\n]+)は呪殺をかわした	{1} evaded the Dark attack!
+([^、。「」『』…\n]+)はドレインを防いだ	{1} blocked the drain!
+([^、。「」『』…\n]+)は([^\u3040-\u30ff\u4e00-\u9fff]+)を反射した	{1} repelled {2}!
+([^、。「」『』…\n]+)は反射した	{1} repelled it!
+([^、。「」『』…\n]+)はレベルが下がった	{1}'s level dropped!
+([^、。「」『』…\n]+)にテトラジャがかかった	Tetraja shields {1}.
+([^、。「」『』…\n]+)の攻撃力が上がった	{1}'s attack rose!
+([^、。「」『』…\n]+)の防御力が上がった	{1}'s defense rose!
+([^、。「」『』…\n]+)の命中率が上がった	{1}'s accuracy rose!
+([^、。「」『』…\n]+)の魔法威力が上がった	{1}'s magic power rose!
+([^、。「」『』…\n]+)は命中率が下がった	{1}'s accuracy fell!
+([^、。「」『』…\n]+)は火炎が無効になった	{1} now nullifies Fire!
+([^、。「」『』…\n]+)は氷結が無効になった	{1} now nullifies Ice!
+([^、。「」『』…\n]+)は物理障壁で守られた	A physical barrier shields {1}.
+([^、。「」『』…\n]+)は魔法障壁で守られた	A magic barrier shields {1}.
+([^、。「」『』…\n]+)のHPが(\d+)回復した	{1} recovered {2} HP.
+([^、。「」『』…\n]+)のMPが(\d+)回復した	{1} recovered {2} MP.
+([^、。「」『』…\n]+)はHPMPが(\d+)回復した！！	{1} recovered {2} HP and MP!
+([^、。「」『』…\n]+)は全回復した	{1} fully recovered!
+([^、。「」『』…\n]+)は(\d+)回復した！！	{1} recovered {2} HP!
+([^、。「」『』…\n]+)は(\d+)回復	{1} absorbed {2} HP.
+([^、。「」『』…\n]+)は(\d+)ダメージを受けた	{1} took {2} damage.
+([^、。「」『』…\n]+)は(GOOD|HAPPY|PANIC|CLOSE|SHOCK|FREEZE|BIND|SLEEP|CHARM|CURSE|FROG|FLY|POISON|PALYZE|STONE|DYING|DEAD)になった！！	{1} is afflicted with {2}!
+([^、。「」『』…\n]+)は(GOOD|HAPPY|PANIC|CLOSE|SHOCK|FREEZE|BIND|SLEEP|CHARM|CURSE|FROG|FLY|POISON|PALYZE|STONE|DYING|DEAD)になった	{1} is afflicted with {2}!
+([^、。「」『』…\n]+)は(GOOD|HAPPY|PANIC|CLOSE|SHOCK|FREEZE|BIND|SLEEP|CHARM|CURSE|FROG|FLY|POISON|PALYZE|STONE|DYING|DEAD)が解けた！！	{1} is cured of {2}!
+([^、。「」『』…\n]+)は(GOOD|HAPPY|PANIC|CLOSE|SHOCK|FREEZE|BIND|SLEEP|CHARM|CURSE|FROG|FLY|POISON|PALYZE|STONE|DYING|DEAD)が解けた	{1} is cured of {2}.
+([^、。「」『』…\n]+)は攻撃をかわした！！	{1} dodged the attack!
+([^、。「」『』…\n]+)は攻撃をかわした	{1} dodged the attack.
+([^、。「」『』…\n]+)は特殊な効果を得た！！	{1} gained a special effect!
+([^、。「」『』…\n]+)を封印した	{1} was sealed!
+([^、。「」『』…\n]+)が倒された	{1} was defeated!
+([^、。「」『』…\n]+)に(\d+)のダメージ！	{1} takes {2} damage!
+([^、。「」『』…\n]+)は(\d+)のダメージ！	{1} takes {2} damage!
+([^、。「」『』…\n]+)は(\d+)のダメージを返した	{1} returned {2} damage!
+#
+# --- Split two-line messages: "{name}は" on one line and "{item}を使った" on the next
+([^、。「」『』…\n]+)は	{1}
+#
+# --- Generic skill use: keep last among the "の" templates
+([^、。「」『』…\n]+)の([^\u3040-\u30ff\u4e00-\u9fff]+)！！	{1} uses {2}!
+#
+# --- Encounter / level-up / game over (Battle_ShowInit, Battle_DrawSubWindow)
+([^、。「」『』…\n]+)が(\d+)体出た	{1} ×{2} appeared!
+([^、。「」『』…\n]+)のレベルが	{1}'s level
+(\d+)上がった	went up by {1}!
+(\d+)ポイント振り分けてください	Allocate {1} stat point(s).
+あぁ･･･([^、。「」『』…\n]+)･･･	Ah... {1}...
+残りポイント  (\d+)	Points left  {1}
+(\d+)番目を選択してください	Choose who goes in slot {1}.
+読み込み失敗 = ([^、。「」『』…\n]+)	Load failed = {1}
