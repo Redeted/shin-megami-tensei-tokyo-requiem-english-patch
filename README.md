@@ -27,7 +27,7 @@ It's a mod for your own copy of the game. **The game is not included**, and you 
 ## Install
 
 1. In Steam, right-click the game and choose **Manage > Browse local files**.
-2. Download `TokyoRequiemEN-v0.1.zip` from [Releases](../../releases).
+2. Download `TokyoRequiemEN-v0.2.zip` from [Releases](../../releases).
 3. Extract everything in the zip into that folder. `winhttp.dll` should end up next to `megaten_requiem.exe`.
 4. Start the game from Steam as usual.
 
@@ -98,7 +98,7 @@ The second command also copies the plugin and tables into the game. To run the p
 To build the player zip from the repository root:
 
 ```
-python tools/release/package_release.py "<game folder>" plugin/bin/Release/TokyoRequiemEN.dll <BepInEx LICENSE> TokyoRequiemEN-v0.1.zip
+python tools/release/package_release.py "<game folder>" plugin/bin/Release/TokyoRequiemEN.dll <BepInEx LICENSE> TokyoRequiemEN-v0.2.zip
 ```
 
 ## Development tools

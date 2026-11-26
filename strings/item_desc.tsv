@@ -131,7 +131,7 @@
 @desc.item.124	Restores 200-399 HP to one ally.	Ox Bezoar
 @desc.item.125	Adds 50-399 HP to one ally, even past max HP.	Muscle Drink
 @desc.item.126	Converts 30-79 of one ally's HP into MP.	Hiranya
-@desc.item.127	Restores 15 MP to one ally.	Magic Bottle
+@desc.item.127	Party: restores 15 MP to each ally.	Magic Bottle
 @desc.item.128	Restores 1/4 of one ally's max HP.	Life Stone
 @desc.item.129	Fully restores one ally's HP.	Bead
 @desc.item.130	Fully restores HP and MP and cures all ailments.	Soma
